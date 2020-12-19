@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const app = express();
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static('public'));
-
+//for live deployment
 app.listen(process.env.PORT || 3000, () => {
     console.log('Listening on port 3000');
 });
