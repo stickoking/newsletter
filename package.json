@@ -2,12 +2,24 @@
   "name": "newsletter",
   "version": "1.0.0",
   "main": "app.js",
-  "repository": "https://github.com/stickoking/newsletter.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stickoking/newsletter.git"
+  },
   "author": "Prasshant Shanmugalingam <stickoking@hotmail.com>",
-  "license": "none",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "request": "^2.88.2"
+  },
+  "description": "",
+  "bugs": {
+    "url": "https://github.com/stickoking/newsletter/issues"
+  },
+  "homepage": "https://github.com/stickoking/newsletter#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
